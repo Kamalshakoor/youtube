@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Glowing button </title>
+
+  <style>
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #1e1e1e;
+    }
+    .neon-button{
+      padding: 15px 40px;
+      font-size: 20px;
+      color: #ff00ff;
+      background-color: transparent;
+      border: 2px solid #ff00ff;
+      outline: none;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.5s;
+      position: relative;
+      box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+    }
+
+    .neon-button:hover{
+      background-color: #ff00ff;
+      color: #fff;
+      box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 400px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff,0 0 70px #ff00ff;
+      border-color: #fff ;
+    }
+  </style>
+</head>
+<body>
+  <button class="neon-button">Neon Button</button>
+</body>
+</html>
